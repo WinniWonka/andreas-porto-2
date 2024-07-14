@@ -135,7 +135,7 @@
         </div>
 
         <div class="col-lg-5 mx-auto col-md-6 col-12">
-          <img src="images/developer.png" class="about-image img-fluid">
+          <img src="images/developer.png" class="about-image img-fluid" id="secret">
         </div>
       </div>
     </div>
@@ -324,7 +324,11 @@
         .catch((error) => console.error('Error!', error.message));
     });
   </script>
-
+  <script>
+    document.getElementById("secret").addEventListener("click", function () {
+      console.log("Yx8GnR1ejAzafP0.html");
+    });
+  </script>
 </body>
 
 </html>
